@@ -1,0 +1,34 @@
+{
+  "name": "cocotte-row",
+  "description": "cocotte用データ行",
+  "homepage": "https://github.com/yukik/cocotte-row",
+  "keywords": [
+    "cocotte"
+  ],
+  "author": "Yuki Kurata <yuki.kurata@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yukik/cocotte-row.git"
+  },
+  "dependencies": {
+    "cocotte-helper": "*",
+    "cocotte-field": "*"
+  },
+  "devDependencies": {
+    "browserify": "^10.1.3",
+    "gulp": "^3.8.11",
+    "gulp-uglify": "^1.2.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "main": "lib/row.js",
+  "version": "0.2.0",
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "readmeFilename": "README.md",
+  "license": "MIT"
+}
