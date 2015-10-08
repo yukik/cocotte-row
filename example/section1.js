@@ -1,7 +1,9 @@
 /*jshint forin:false */
 
-var Field = require('cocotte-field');
-var Row = require('..');
+/*global Cocotte*/
+var isClient = typeof window === 'object';
+var Row   = isClient ? Cocotte.Row   : require('..');
+var Field = isClient ? Cocotte.Field : require('cocotte-field');
 
 var fields = {
   name   : {type: Field.Text, max: 10},
@@ -39,3 +41,6 @@ console.log();
 for(fn in copied) {
   console.log(fn, copied[fn]);
 }
+
+
+

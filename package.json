@@ -22,7 +22,7 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "main": "lib/row.js",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "scripts": {
     "test": "node ./test/test.js"
   },
